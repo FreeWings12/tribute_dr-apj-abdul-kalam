@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#main {
+    margin: 3rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(230, 231, 232);
+    color: #000;
+}
+
+#header {
+    text-align: center;
+}
+
+#title {
+    font-size: 3.8rem;
+}
+
+#header p {
+    font-size: 1.6rem;
+    opacity: 0.85;
+}
+
+#img-div {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #fff;
+    margin: 0rem;
+}
+
+#image {
+    height: 60vw;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#img-caption {
+    padding: 2rem 0;
+    font-size: 1.6rem;
+}
+
+#tribute-info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#tribute-info #info-heading {
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+#tribute-info ul {
+    align-items: baseline;
+    max-width: 55rem;
+    margin: 0 auto 5rem auto;
+    list-style: disc;
+}
+
+#tribute-info li {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    line-height: 1.6;
+}
+
+#tribute-info .more-info {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+blockquote.quote {
+    max-width: 55rem;
+    padding-bottom: 2rem;
+}
+
+.quote p {
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: left;
+}
+
+.quote cite {
+    font-size: 1.6rem;
+}
+
+
+#tribute-link {
+    color: #477ca7;
+    text-decoration: underline;
+}
+
+#tribute-link:visited {
+    color: #74638f;
+}
